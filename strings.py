@@ -9,3 +9,15 @@ print(name[5])
 #its let me move backward
 print(name[-1])
 print(name[-2])
+
+message = "A kong string with silly typo"
+#message[2] = 'l'   we cannot change individual char cos string in python are immutable 
+#to solve it 
+new_message = message[0:2] + 'l' + message[3:]
+print(new_message)
+
+#but we can assign a new value 
+message = "This is a new message"
+print(message)
+
+
