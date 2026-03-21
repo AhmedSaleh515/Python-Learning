@@ -20,4 +20,12 @@ print(new_message)
 message = "This is a new message"
 print(message)
 
+#how we are suppose to know which char to change??
+
+Pets = "Cats & Dogs"
+print(Pets.index("&") ) # now we know where is this char
+
+# to check if a substring is contained in string we use "in"
+print("Dragons" in Pets)
+print("Cats" in Pets) 
 
