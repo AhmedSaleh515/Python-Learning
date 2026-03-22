@@ -36,4 +36,39 @@ while choose==1:
     else:
         print("See You Later")    
 
-        
+## the comming code is made by AI its easier and better version for my own code doing the same thing
+# 
+""" 
+# 1. Functions that focus ONLY on the math (Input/Output)
+def convert_to_fahrenheit(celsius):
+    return (celsius * 9/5) + 32
+
+def convert_to_miles(km):
+    return km * 0.621371
+
+# 2. The main program loop
+while True:
+    print("\n--- Unit Converter Menu ---")
+    print("1. Celsius to Fahrenheit")
+    print("2. Kilometers to Miles")
+    print("3. Exit")
+    
+    choice = input("Select an option (1-3): ")
+
+    if choice == '1':
+        c = float(input("Enter Celsius: "))
+        f = convert_to_fahrenheit(c)
+        print(f"Result: {c}°C is {f}°F")
+
+    elif choice == '2':
+        k = float(input("Enter Kilometers: "))
+        m = convert_to_miles(k)
+        print(f"Result: {k} km is {round(m, 2)} miles")
+
+    elif choice == '3':
+        print("Goodbye!")
+        break  # This kills the loop and ends the program
+
+    else:
+        print("Invalid choice, please try again.")
+"""
